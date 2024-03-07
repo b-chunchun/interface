@@ -2,6 +2,19 @@
 # yarn lockfile v1
 
 
+"@b-chunchun/uniswap-sdk@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@b-chunchun/uniswap-sdk/-/uniswap-sdk-3.0.2.tgz#c275ace7bd186e5adfeed7860bb031f612b6f476"
+  integrity sha512-otN7MB+429UxeOXUKzpXVyMdIZkTU+15ER6f2NI8f/TNnzCvlwE89Nu3n6QANAOgzxhswd8MSViOFjnAvLljZQ==
+  dependencies:
+    "@uniswap/v2-core" "^1.0.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 "@babel/code-frame@7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"

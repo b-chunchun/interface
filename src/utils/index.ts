@@ -28,7 +28,7 @@ export function isAddress(value: any): string | false {
 
 export function getEtherscanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
   // const prefix = `https://${ETHERSCAN_PREFIXES[chainId] || ETHERSCAN_PREFIXES[1]}etherscan.io`
-  const prefix = `https://explorer.testnet.boyaa.network/`
+  const prefix = `https://explorer.testnet.mtt.network/`
 
 
   switch (type) {

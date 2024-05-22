@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@b-chunchun/uniswap-sdk@3.0.7":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@b-chunchun/uniswap-sdk/-/uniswap-sdk-3.0.7.tgz#93e27eb4ede89a3a59b36a0ab50cba45080d71e7"
-  integrity sha512-LcGq9Gycb2L/Har/XFBrs53G566uReWh4gtDdv+YYe75C7eiAF18IK8tOm66ruZncWP5u8wJo6aO0lBm5Ok89w==
+"@b-chunchun/uniswap-sdk@3.0.9":
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/@b-chunchun/uniswap-sdk/-/uniswap-sdk-3.0.9.tgz#5dcc56f9dd10b9db054c0d772584446105a76104"
+  integrity sha512-szJFYYpo/EI3Q9NgpVHGKB1P0lO2IMbjUq+9tEp3rze+tUbr3V9grgCQoJcc/0hrE/yBDLea11agrbMrni3WgQ==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"

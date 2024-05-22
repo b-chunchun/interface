@@ -111,14 +111,14 @@ export function useV1Trade(
   const inputIsETH = inputCurrency === ETHER
   const outputIsETH = outputCurrency === ETHER
 
-  // construct a direct or through ETH v1 route
+  // construct a direct or through MTT v1 route
   let pairs: Pair[] = []
   if (inputIsETH && outputPair) {
     pairs = [outputPair]
   } else if (outputIsETH && inputPair) {
     pairs = [inputPair]
   }
-  // if neither are ETH, it's token-to-token (if they both exist)
+  // if neither are MTT, it's token-to-token (if they both exist)
   else if (inputPair && outputPair) {
     pairs = [inputPair, outputPair]
   }
@@ -152,8 +152,8 @@ export function useV1TradeExchangeAddress(trade: Trade | undefined): string | un
     return trade.inputAmount instanceof TokenAmount
       ? trade.inputAmount.token.address
       : trade.outputAmount instanceof TokenAmount
-      ? trade.outputAmount.token.address
-      : undefined
+        ? trade.outputAmount.token.address
+        : undefined
   }, [trade])
   return useV1ExchangeAddress(tokenAddress)
 }
